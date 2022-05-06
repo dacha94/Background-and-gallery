@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    max-width: 1170px;
+    /*margin-left: auto;
+    margin-right: auto; */
+    padding-left: 70px;
+    padding-right: 50px;
+    margin-top: 100px;
+    
+}
+body{
+    background-color: #5f5f5f;
+    transform-style: preserve-3d;
+}
+
+.header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35); /*тень*/
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
+}
+/* позиции кружков и характеристики */
+.color-panel {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgb(97, 94, 94); 
+    max-height: 60%;
+    max-width: 40%;
+    padding: 25px 15px 15px 15px; /*ьвнутренние отступы */
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35); /*тень*/
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
+    border-radius: 15px 15px 15px 15px;
+}
+
+/* Размеры цветных ячеек */
+.color-panel div {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin: 15px;    
+}
+
+/* цвет фона ячейки */
+#fucsia{
+    background-color: #FF00FF;
+}
+#purple{
+    background-color: #800080;
+}
+#indigo{
+    background-color: #4B0082;
+}
+#darkmagenta{
+    background-color: #8B008B;
+}
+#violet{
+    background-color: #EE82EE;
+}
+
+hr {
+    border: none; 
+    background-color: rgb(10, 10, 10); 
+    color: rgb(7, 7, 7);
+    height: 2px; /* Толщина линии */
+    padding-left: 70px;
+    padding-right: 50px;
+    margin-top: 100px;
+    }
+
+    .conteiner {
+        width: 600px;
+        margin: 0 auto;
+        /*display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 30px auto;
+        padding-left: 50px;
+        margin-top: 30px;*/
+    }
+
+    .h1 {
+        padding: 10px 1em 10px 1em;
+        margin: 15px 1em 35px 1em;
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        text-transform: uppercase;
+        -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35); /*тень*/
+        -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.35);
+    }
+
+    .slider-buttons{
+        text-align: center;
+    }
+
+.slider-line {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(./images/1.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;   
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="header">"вырвиглазная" палитра. выбор цвета на бэкграунд!</h1>
+        <div class="color-panel">
+            <div id="fucsia" data-color="#FF00FF" onclick="changeColor('fucsia')">
+            </div>
+            <div id="purple" data-color="#800080" onclick="changeColor('purple')">
+            </div>
+            <div id="indigo" data-color="#4B0082" onclick="changeColor('indigo')">
+            </div>
+            <div id="darkmagenta" data-color="#8B008B" onclick="changeColor('darkmagenta')">
+            </div>
+            <div id="violet" data-color="#EE82EE" onclick="changeColor('violet')">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="conteiner">
+        <h1 class="h1">красота и великолепие самарской области</h1>
+        <div class="slider-container">
+            <div class="slider-line">
+                <!-- <img src="./images/1.jpeg" alt="img">
+                <img src="./images/2.jpeg" alt="img">
+                <img src="./images/3.jpeg" alt="img">
+                <img src="./images/4.jpeg" alt="img">
+                <img src="./images/5.jpeg" alt="img"> -->
+            </div>
+            <div class="slider-buttons">
+                <button class="btn-left" onclick="backgroundImages()">&#8592;</button>
+                <button class="btn-right" onclick="backgroundImages2()">&#8594;</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/index.js">
+</script>
+</body>
+
+</html>
